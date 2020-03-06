@@ -71,16 +71,27 @@ export const IssuesList = styled.ul`
 
       strong {
         font-size: 16px;
-      }
 
-      a {
-        text-decoration: none;
-        color: #333;
+        a {
+          text-decoration: none;
+          color: #333;
 
-        &:hover {
-          color: #eb2f06;
+          &:hover {
+            color: #eb2f06;
+          }
+        }
+        span {
+          background: #eee;
+          color: #333;
+          border-radius: 2px;
+          font-size: 12px;
+          font-weight: 600;
+          height: 20px;
+          padding: 3px 4px;
+          margin-left: 10px;
         }
       }
+
       p {
         margin-top: 5px;
         font-size: 12px;
